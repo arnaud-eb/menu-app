@@ -1,4 +1,7 @@
-/*
+import { createGlobalStyle } from "styled-components";
+
+const GlobalStyles = createGlobalStyle`
+    /*
 =============== 
 Variables
 ===============
@@ -121,3 +124,6 @@ p {
     line-height: 1;
   }
 }
+`;
+
+export default GlobalStyles;
